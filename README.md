@@ -11,11 +11,14 @@ STEPS TO RUN THE PROJECT :
 * NPM START
 
 FEATURES :
+
 1.Full CRUD Operations:
 Add, view, update, and delete student placement records with real-time updates.
 
+
 2.Advanced Search:
 Instantly filter students by any field (name, roll number, email, age, passout year, skills, year, department).
+
 
 3.Modal Dialog for Data Entry:
 User-friendly modal dialog box for adding and editing student details.
