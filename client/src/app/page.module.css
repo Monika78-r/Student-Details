@@ -1,0 +1,153 @@
+/* page.module.css */
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 24px;
+	background: #f9fafb;
+	min-height: 100vh;
+}
+body {
+	background: #f9fafb;
+	color:#111827
+}
+
+.heading {
+	font-size: 28px;
+	font-weight: 700;
+	margin-bottom: 16px;
+}
+
+.form {
+	background: #ffffff;
+	border: 1px solid #e5e7eb;
+	border-radius: 10px;
+	padding: 16px;
+	margin-bottom: 20px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+}
+
+.formRow {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 12px;
+}
+
+.input {
+	width: 100%;
+	height: 44px;
+	padding: 10px 12px;
+	border: 1px solid #d1d5db;
+	border-radius: 8px;
+	outline: none;
+	transition: border-color 0.15s ease;
+}
+.input:focus {
+	border-color: #6366f1;
+	box-shadow: 0 0 0 3px rgba(99,102,241,0.15);
+}
+
+.actions {
+	margin-top: 12px;
+	display: flex;
+	gap: 10px;
+}
+
+.btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 14px;
+	border-radius: 8px;
+	border: 1px solid transparent;
+	background: #f3f4f6;
+	color: #111827;
+	font-weight: 600;
+	cursor: pointer;
+	transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+.btn:hover {
+	background: #e5e7eb;
+}
+.btnPrimary {
+	background: #4f46e5;
+	color: #ffffff;
+}
+.btnPrimary:hover {
+	background: #4338ca;
+}
+.btnSecondary {
+	background: #ffffff;
+	border-color: #d1d5db;
+}
+.btnSecondary:hover {
+	background: #f9fafb;
+}
+.btnDanger {
+	background: #ef4444;
+	color: #ffffff;
+}
+.btnDanger:hover {
+	background: #dc2626;
+}
+.btnSmall {
+	padding: 6px 10px;
+	font-size: 14px;
+}
+
+.tableWrap {
+	width: 100%;
+	overflow-x: auto;
+	border: 1px solid #e5e7eb;
+	border-radius: 10px;
+	background: #ffffff;
+}
+
+.table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 14px;
+}
+.table thead th {
+	text-align: left;
+	background: #f9fafb;
+	border-bottom: 1px solid #e5e7eb;
+	padding: 12px;
+	font-weight: 700;
+}
+.table tbody td {
+	border-bottom: 1px solid #f3f4f6;
+	padding: 12px;
+	vertical-align: middle;
+}
+.table tbody tr:nth-child(even) td {
+	background: #fcfcfd;
+}
+
+.actionsCol {
+	width: 180px;
+}
+
+.rowActions {
+	display: flex;
+	gap: 8px;
+}
+
+.empty {
+	text-align: center;
+	color: #6b7280;
+	padding: 20px;
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+	.formRow {
+		grid-template-columns: 1fr;
+	}
+	.actionsCol {
+		width: auto;
+	}
+	.rowActions {
+		justify-content: flex-start;
+		flex-wrap: wrap;
+	}
+}
