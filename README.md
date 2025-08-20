@@ -31,6 +31,6 @@ Clean, responsive Next.js frontend with form validation to ensure accurate data 
 
 SAMPLE SCREENSHOTS:
 
-<img width="1919" height="877" alt="image" src="https://github.com/user-attachments/assets/fe03e6d8-0c24-4fc0-b378-1cea394f4061" />
+<img width="1919" height="874" alt="image" src="https://github.com/user-attachments/assets/2c09c5cf-5d7d-4cf7-b84a-38ef450b30f1" />
 
 
